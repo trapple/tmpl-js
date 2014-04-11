@@ -8,7 +8,7 @@ describe("my-app", function () {
   var url = "http://localhost:8000/index.html";
 
   before( function (done) {
-    browser = new Zombie({debug: true});
+    browser = new Zombie({debug: false});
     promise = browser.visit(url);
     promise.then(function () {
       $ = browser.window.$; 

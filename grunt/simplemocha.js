@@ -1,6 +1,9 @@
 module.exports = {
-  all: {
-    src: ['spec/**/*.js']
+  unit: {
+    src: ['spec/unit/*.js']
+  },
+  e2e: {
+    src: ['spec/e2e/*.js']
   },
   options: {
     reporter: 'spec',
