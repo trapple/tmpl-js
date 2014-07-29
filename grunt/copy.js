@@ -2,7 +2,7 @@ module.exports = {
     develop: {
         files: [{
             expand: true,
-            cwd: "dest/",
+            cwd: "dist/",
             src: "myapp.js",
             dest: "app/js/"
         }]

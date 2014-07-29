@@ -1,6 +1,6 @@
 node_modules
 bower_components
 assets/jst
-dest
 lib/*
 app/js/myapp.js
+dist/*

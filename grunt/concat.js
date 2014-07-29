@@ -6,7 +6,7 @@ module.exports = {
       "assets/js/outro.js",
       "assets/jst/template.js"
     ],
-    dest: "dest/myapp.js",
+    dest: "dist/myapp.js",
     nonull: true,
   },
   options: {
